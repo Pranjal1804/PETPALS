@@ -12,6 +12,17 @@ body{
 }
 #header{
   font-weight:bold;
-  color: brown;
+  color: white;
   margin-bottom: 10px;
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  font-size: larger;
+  padding: 20px;
+}
+#navbar a{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
 }

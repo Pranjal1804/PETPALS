@@ -3,7 +3,19 @@ import React from 'react'
 const Header = () => {
   return (
     <div id='header'>
-        <h1>THIS IS THE HEADER COMPONENT</h1>
+        <div id='logo'>
+            <h3>Petpals</h3>
+        </div>
+        <div>
+            <nav id='navbar'>
+                <a href=''>Home</a>
+                <a href=''>Browse Pet</a>
+                <a href=''>Dashboard</a>
+                <a href=''>Services</a>
+                <a href=''>About</a>
+                <a href=''>Contact</a>
+            </nav>
+        </div>
     </div>
   )
 }
