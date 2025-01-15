@@ -3,8 +3,8 @@ import React from 'react'
 const Header = () => {
   return (
     <div id='header'>
-        <div id='logo'>
-            <h3>Petpals</h3>
+        <div >
+            <img src='/ebf7d701-f85f-49b0-b84a-d60ea2036984.png' id='logo'/>
         </div>
         <div>
             <nav id='navbar'>
