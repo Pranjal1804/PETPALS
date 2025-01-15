@@ -8,7 +8,8 @@ html,
 body{
   height: 100%;
   width: 100%;
-  background-color: bisque;
+  background-image: linear-gradient(to right, white,rgb(241, 234, 174),rgb(247, 212, 190)
+  );
 }
 #header{
   font-weight:bold;
