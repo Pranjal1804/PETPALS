@@ -14,11 +14,11 @@ body{
   font-weight:bold;
   color: white;
   margin-bottom: 10px;
-  background-color: brown;
   display: flex;
   justify-content: space-between;
   height: 120px;
   font-size: larger;
+  background-image: linear-gradient(to right,brown,orange);
   
 }
 #navbar a{
@@ -39,6 +39,6 @@ body{
   padding: 45px;
 }
 #navbar a:hover{
-  color: rgb(250, 174, 67);
+  color: brown;
   text-decoration: underline;
 }
