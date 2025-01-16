@@ -69,10 +69,11 @@ body{
   margin-top: 200px;
   height: 400px;
   padding:20px;
-  font-size: 50px;
+  font-size: 70px;
 }
 #image{
-  margin-left: 400px;
+  margin-left: 40px;
+  margin-right: 30px;
   padding-top: 40px;
 }
 #text{
@@ -80,7 +81,7 @@ body{
   margin-left: 40px;
 }
 #pic1{
-  height: 300px;
+  height: 500px;
   border: solid black 4px;
   border-radius: 20%;
 }

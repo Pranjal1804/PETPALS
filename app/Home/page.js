@@ -12,7 +12,7 @@ const Home = () => {
         <p>prgrt paro fres elit.</p>
         </div>
         <div id="image">
-        <img src="/7971fd50-0fc9-48af-b66c-58de5921f02b.jpeg" alt='picture' id='pic1'/>
+        <img src="/Designer.jpeg" alt='picture' id='pic1'/>
         </div>
     </div>
     </>
