@@ -85,3 +85,8 @@ body{
   border: solid black 4px;
   border-radius: 20%;
 }
+#pic1:hover{
+  height: 502px;
+  transition-delay: 1;
+  box-shadow: rgba(248, 251, 181, 0.842) 5px 4px 3px 6px;
+}

@@ -6,7 +6,7 @@ import gsap from 'gsap'
 const page = () => {
   useGSAP(()=>{
     gsap.from("p",{
-      x:-300,
+      x:-1000,
       stagger:0.3,
       duration:2
     })
