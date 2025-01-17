@@ -2,10 +2,11 @@
 import React from 'react'
 import Header from "@/Components/Header"
 import { useGSAP } from '@gsap/react'
+import About from "@/Components/About"
 import gsap from 'gsap'
 const page = () => {
   useGSAP(()=>{
-    gsap.from("p",{
+    gsap.from("#intro1",{
       x:-1000,
       stagger:0.3,
       duration:2
@@ -20,14 +21,15 @@ const page = () => {
     <Header />
     <div id='intro'>
       <div id="text">
-        <p>Lorem ipsum dolor</p>
-        <p>sit amet, consectetur adipiscing</p>
-        <p>prgrt paro fres elit.</p>
+        <p id='intro1'>Lorem ipsum dolor</p>
+        <p id='intro1'>sit amet, consectetur adipiscing</p>
+        <p id='intro1'>prgrt paro fres elit.</p>
         </div>
         <div id="image">
         <img src="/Designer.jpeg" alt='picture' id='pic1'/>
         </div>
     </div>
+    <About />
     </>
   )
 }

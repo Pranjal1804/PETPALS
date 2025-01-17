@@ -67,7 +67,7 @@ body{
 #intro{
   display: flex;
   margin-top: 200px;
-  height: 400px;
+  height: 700px;
   padding:20px;
   font-size: 70px;
 }
@@ -89,4 +89,44 @@ body{
   height: 502px;
   transition-delay: 1;
   box-shadow: black 2px 2px 2px 2px;
+}
+#about{
+  margin-top: 20px;
+  height: 500px;
+  background-color: brown;
+  color: bisque;
+  border:6px solid rgb(252, 162, 53);
+  border-radius: 30px;
+  padding: 20px;
+  width:95%;
+  margin-left: 40px;
+  font-size: 33px;
+  font-weight: bold;
+  overflow: hidden; 
+}
+#lines{
+  padding-top: 40px;
+}
+.typing {
+  border-right: 3px solid bisque; /* Cursor effect */
+  display: inline-block;
+  animation: typing 8s steps(120, end), blink 0.7s step-end infinite;
+  white-space: normal; /* Allows text wrapping */
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    max-height: 0;
+  }
+  to {
+    max-height: 500px;
+  }
+}
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: bisque;
+  }
 }
