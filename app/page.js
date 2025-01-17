@@ -15,6 +15,15 @@ const page = () => {
       x:1000,
       duration:2
     })
+    gsap.from("#about",{
+      x:-2000,
+      duration:2,
+      scrollTrigger:{
+        trigger:"#about"
+      },
+      delay:1.8,
+      start:"top top"
+    })
   })
   return (
     <>

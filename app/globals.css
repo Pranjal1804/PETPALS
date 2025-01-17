@@ -91,7 +91,7 @@ body{
   box-shadow: black 2px 2px 2px 2px;
 }
 #about{
-  margin-top: 20px;
+  margin-top: 70px;
   height: 500px;
   background-color: brown;
   color: bisque;
@@ -110,7 +110,7 @@ body{
 .typing {
   border-right: 3px solid bisque; /* Cursor effect */
   display: inline-block;
-  animation: typing 8s steps(120, end), blink 0.7s step-end infinite;
+  animation: typing 8s steps(120, end), blink 0.7s step-end infinite 10s;
   white-space: normal; /* Allows text wrapping */
   overflow: hidden;
 }
