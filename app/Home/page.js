@@ -17,7 +17,7 @@ const Home = () => {
     })
     gsap.from("#about",{
       x:-2000,
-      duration:2,
+      duration:1,
       scrollTrigger:{
         trigger:"#about"
       },
