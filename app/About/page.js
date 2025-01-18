@@ -4,7 +4,6 @@ import Header from "@/Components/Header"
 const page = () => {
   return (
     <>
-    <Header />
     <div id="about">
       <h2>About</h2>
       <div id='lines'>

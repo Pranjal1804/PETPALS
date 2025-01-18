@@ -27,7 +27,6 @@ const page = () => {
   })
   return (
     <>
-    <Header />
     <div id='intro'>
       <div id="text">
         <p id='intro1'>Lorem ipsum dolor</p>
