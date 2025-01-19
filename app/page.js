@@ -9,7 +9,7 @@ const page = () => {
     gsap.from("#intro1",{
       x:-1000,
       stagger:0.3,
-      duration:2
+      duration:1
     })
     gsap.from("#image",{
       x:1000,
