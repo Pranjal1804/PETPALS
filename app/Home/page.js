@@ -22,7 +22,7 @@ const Home = () => {
         trigger:"#about"
       },
       delay:1.8,
-      start:"top bottom"
+      start:"top top"
     })
   })
   return (
