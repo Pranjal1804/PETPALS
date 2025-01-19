@@ -17,12 +17,12 @@ const page = () => {
     })
     gsap.from("#about",{
       x:-2000,
-      duration:1.5,
+      duration:2,
       scrollTrigger:{
         trigger:"#about"
       },
       delay:1.8,
-      start:"top top"
+      start:"top bottom"
     })
   })
   return (
