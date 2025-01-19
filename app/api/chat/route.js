@@ -13,23 +13,15 @@ export async function POST(req) {
   try {
     const body = await req.json();
     const { messages } = body;
-
-    // Initialize Gemini
     const genAI = new GoogleGenerativeAI(geminiKey);
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-
-    // Convert chat format to simple prompt
     const prompt = messages
       .filter(m => m.role !== "system")
       .map(m => m.content)
       .join("\n");
-
-    // Add system prompt
     const systemPrompt = "You are an expert assistant for a pet care and adoption platform called PetPals. " +
                         "Respond only to topics related to pets, their care, adoption processes, and veterinary advice. " +
                         "Politely redirect unrelated questions.\n\n";
-
-    // Generate response
     const result = await model.generateContent(systemPrompt + prompt);
     const response = await result.response;
 
