@@ -35,7 +35,7 @@ const Chatbot = () => {
   return (
     <div className="chatbot-container">
       <button className="chatbot-icon" onClick={handleToggle}>
-        💬
+        <img src="/pawprint.png" alt="chatbot" id="paw" />
       </button>
 
       {isOpen && (
