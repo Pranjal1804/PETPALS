@@ -29,7 +29,7 @@ const Chatbot = () => {
       console.error("Error:", error);
     }
 
-    setInput(""); // Clear input field
+    setInput(""); 
   };
 
   return (
