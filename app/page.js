@@ -3,6 +3,7 @@ import React from 'react'
 import Header from "@/Components/Header"
 import { useGSAP } from '@gsap/react'
 import About from "@/Components/About"
+import Contact from "@/Components/Contact"
 import gsap from 'gsap'
 const page = () => {
   useGSAP(()=>{
@@ -38,6 +39,7 @@ const page = () => {
         </div>
     </div>
     <About />
+    <Contact />
     </>
   )
 }

@@ -244,4 +244,55 @@ body{
   color: white;
   text-shadow: brown 2.5px 2.5px 2.5px;
 }
+#contact_form_header{
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 90px;
+  width:100%;
+  height:60px;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: brown;
+  font-weight: bold;
+}
+#contact_form{
+  width: 60%;
+  height:550px;
+  background:linear-gradient(to right, bisque,rgb(249, 235, 182));
+  border:1px solid brown;
+  border-radius: 30px;
+  box-shadow: rgb(248, 145, 19) 1px 1px 1px 1px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#contact_form form{
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+#contact_form form input {
+  width: 90%;
+  height: 70px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid brown;
+  padding-left: 10px;
+}
+#sendbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sb{
+  width: 100px;
+  height:50px
+}
 
