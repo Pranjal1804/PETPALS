@@ -40,9 +40,9 @@ export default function Login() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-50">
-      <div className="p-8 bg-white rounded-lg shadow-md w-full max-w-md">
-        <h1 className="mb-6 text-2xl font-bold text-center text-gray-800">Welcome Back</h1>
+    <div className="auth-container">
+      <div className="auth-box">
+        <h1 className="auth-title">Welcome Back</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           {error && (
             <div className="p-3 text-sm text-red-500 bg-red-50 border border-red-200 rounded">

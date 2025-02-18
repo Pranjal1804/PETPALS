@@ -56,9 +56,9 @@ export default function Signup() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <div className="p-8 bg-white rounded-lg shadow-md">
-        <h1 className="mb-6 text-2xl font-bold text-center">Sign Up</h1>
+    <div className="auth-container">
+      <div className="auth-box">
+        <h1 className="auth-title">Sign Up</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           {error && <div className="text-red-500 text-sm">{error}</div>}
           <div>
