@@ -314,7 +314,6 @@ body{
   width: 100px;
   height:50px
 }
-/* Centering form container and adding a subtle shadow */
 .auth-container {
   display: flex;
   flex-direction: column;
@@ -323,8 +322,6 @@ body{
   min-height: 100vh;
   padding: 20px;
 }
-
-/* Styling for the form box */
 .auth-box {
   width: 100%;
   max-width: 400px;
@@ -335,16 +332,12 @@ body{
   text-align: center;
   animation: fadeIn 0.8s ease-in-out;
 }
-
-/* Title styling */
 .auth-title {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
   color: brown;
 }
-
-/* Input fields */
 .auth-box input {
   width: 100%;
   padding: 12px;
@@ -360,8 +353,6 @@ body{
   outline: none;
   box-shadow: 0 0 5px rgba(165, 42, 42, 0.5);
 }
-
-/* Buttons */
 .auth-box button {
   width: 100%;
   padding: 12px;
@@ -378,8 +369,6 @@ body{
 .auth-box button:hover {
   background-color: rgb(165, 42, 42);
 }
-
-/* Error message */
 .auth-error {
   color: red;
   font-size: 14px;
@@ -388,8 +377,6 @@ body{
   border-radius: 5px;
   margin-bottom: 10px;
 }
-
-/* Signup/Login link */
 .auth-box p {
   margin-top: 15px;
   font-size: 14px;
@@ -405,8 +392,6 @@ body{
 .auth-box a:hover {
   text-decoration: underline;
 }
-
-/* Animation */
 @keyframes fadeIn {
   from {
     opacity: 0;

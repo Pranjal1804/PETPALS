@@ -1,4 +1,3 @@
-// Header.js
 import AuthButton from '@/app/components/AuthButton';
 import Link from 'next/link';
 import React from 'react';
