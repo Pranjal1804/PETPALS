@@ -32,37 +32,65 @@ body{
   }
 }
 
-#header{
-  font-weight:bold;
+#header {
+  font-weight: bold;
   color: white;
-  margin-bottom: 10px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
-  height: 120px;
+  align-items: center;
+  height: 90px;
   font-size: larger;
-  background-image: linear-gradient(to right,brown,orange);
-  
+  background-image: linear-gradient(to right, brown, orange);
 }
-#navbar a{
-  color: white;
-  text-decoration: none;
-  margin-right: 20px;
-  font-size: larger;
-  padding: 10px;
+
+.logo-container {
+  display: flex;
+  align-items: center;
 }
-#logo{
+
+#logo {
   height: 70px;
   width: 180px;
-  padding-left: 10px;
-  padding-top:10px;
-  margin-top: 10px;
+  margin: 0;
+  padding: 0;
 }
-#navbar{
-  padding: 45px;
+
+#navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
 }
-#navbar a:hover{
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.auth-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+#navbar button {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bold;
+  background: transparent;
+}
+
+#navbar a:hover,
+#navbar button:hover {
   color: brown;
- transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 #intro{
   display: flex;
@@ -131,15 +159,12 @@ body{
     border-color: bisque;
   }
 }
-/* Chatbot Container */
 .chatbot-container {
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 1000;
 }
-
-/* Chatbot Icon */
 .chatbot-icon {
   width: 60px;
   height: 60px;
@@ -157,8 +182,6 @@ body{
   transform: scale(1.4);
   transition: transform 0.3s;
 }
-
-/* Chatbot Window */
 .chatbot-window {
   width: 500px;
   height: 600px;
@@ -170,8 +193,6 @@ body{
   overflow: hidden;
   border: 2px solid brown;
 }
-
-/* Chatbot Messages */
 .chatbot-messages {
   flex: 1;
   padding: 10px;
@@ -198,8 +219,6 @@ body{
   color: white;
   align-self: flex-start;
 }
-
-/* Chatbot Input */
 .chatbot-input-container {
   display: flex;
   border-top: 1px solid #ddd;

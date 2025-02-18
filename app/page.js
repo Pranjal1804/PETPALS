@@ -39,7 +39,6 @@ const page = () => {
         </div>
     </div>
     <About />
-    <Contact />
     </>
   )
 }
